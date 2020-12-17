@@ -71,11 +71,11 @@ export default {
 
           if(scroll_top > nav_ht)
           {
-            $('#nav').addClass('shadow')
+            $('#nav').addClass('shadow-sm')
           }
           else
           {
-            $('#nav').removeClass('shadow')
+            $('#nav').removeClass('shadow-sm')
           }
 
         })
