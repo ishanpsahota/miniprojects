@@ -1,5 +1,5 @@
 <template>
-    <div class="card-body">
+    <div class="card-body" data-aos="fade-up">
         <h1> {{item.name}} (By @{{item.owner.login}}) </h1>
         <p> {{item.description}} </p>
 

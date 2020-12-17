@@ -47,25 +47,42 @@ navbar
     background: rgba(255,255,255,0.4);
 }
 
-.home
+.hero_container
 {
     background-image: url('./svgs/landingpage.svg');
     /* background-size: 100% ; */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed;     */
     background-position: bottom;    
 }
 
 /* landing page */
 /* about container */
+.search_container_wrapper
+{
+    background-color: #d9dff3;
+    background-image: url('./svgs/blob_search.svg');
+    background-repeat: no-repeat;
+    background-position: 150% 10%;
+    background-size: 50% 50%;
+}
+
 .search_container
 {
+    
+}
+
+.about_container_wrapper
+{
     background-color: #eff4f8;
+    background-image: url('./svgs/about.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .about_container
 {
-    background-color: #eff4f8;
+    
 }
 
 .illus_about img
@@ -74,8 +91,17 @@ navbar
     height: auto;
     width: auto;
     max-width: 100%;
-
 }
+
+.illus_about
+{
+    background: url('./svgs/blob.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% ;
+}
+
+
 
 .footer
 {
